@@ -1,4 +1,6 @@
-.o
-.h
-.ko
-x86/
+**/*.o
+**/*.h
+**/*.ko
+**/x86
+**/machine
+**/export_syms
