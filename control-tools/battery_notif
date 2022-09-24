@@ -1,0 +1,3 @@
+#!/bin/sh
+
+notify-send "$(apm | grep -m1 -B1 life)" -i /home/ismailtag/.icons/default/battery.png

@@ -365,6 +365,16 @@
         <command>/usr/local/libexec/control-tools/toggle_volume</command>
       </action>
     </keybind>
+	<keybind key="F6">
+		<action name="Execute">
+			<command>/usr/local/libexec/control-tools/battery_notif</command>
+		</action>
+	</keybind>
+	<keybind key="W-t">
+		<action name="Execute">
+			<command>thunar</command>
+		</action>
+	</keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
